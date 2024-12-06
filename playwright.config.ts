@@ -5,6 +5,6 @@ export default defineConfig({
   use: {
     baseURL: 'https://www.wikipedia.org/',
     browserName: 'chromium',
-    headless: false,
+    headless: true,
   },
 });
